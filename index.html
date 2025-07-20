@@ -8,7 +8,13 @@
     <title>Vite + TS</title>
   </head>
   <body class="m-0 box-border">
-    <nav class="w-full h-4 bg-[#ffd67e]"></nav>
+    <nav class="w-full h-[50px] bg-[#ffd67e]">
+      <ul class="flex justify-left items-center gap-[24px] p-[10px]">
+        <li><a href="/index.html">Typography</a></li>
+        <li><a href="/colors.html">Colors</a></li>
+        <li><a href="/shadows.html">Shadows</a></li>
+      </ul>
+    </nav>
     <div class="w-full h-[252px] px-[100px] py-[64px] border border-[#dfe1e7]">
       <div class="w-[1240px] h-[124px] flex flex-col gap-[24px]">
         <h1 class="text-[50px]">Typography</h1>
@@ -139,26 +145,126 @@
     <div class="ml-[170px] mt-[104px] flex flex-col justify-center gap-[40px]">
       <h1 class="font-medium text-[32px] leading-[140%]">Body</h1>
       <div class="w-[1200px] h-[770px] flex flex-wrap gap-[63px]">
-        <!-- 12 ta card -->
-        <template id="body-card">
-          <div class="w-[358px] h-[136px]">
-            <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
-            <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
-              The quick brown fox jumps over <br />
-              the lazy dog
-            </h2>
-            <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
-              Body Large / Semibold / 18px
-            </p>
-          </div>
-        </template>
-        <script>
-          const template = document.getElementById("body-card");
-          const parent = template.parentElement;
-          for (let i = 0; i < 12; i++) {
-            parent.appendChild(template.content.cloneNode(true));
-          }
-        </script>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
+        <div class="w-[358px] h-[136px]">
+          <h1 class="font-semibold text-[18px] leading-[155%]">Body Large</h1>
+          <h2 class="text-[#64748b] font-semibold text-[18px] leading-[155%]">
+            The quick brown fox jumps over <br />
+            the lazy dog
+          </h2>
+          <p class="font-medium text-[14px] leading-[100%] text-[#64748b]">
+            Body Large / Semibold / 18px
+          </p>
+        </div>
       </div>
     </div>
 
